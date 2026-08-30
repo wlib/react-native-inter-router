@@ -270,6 +270,14 @@ source transpilation or alias is required. Modern Metro uses the package export
 conditions; top-level web/native shims preserve the same subpaths under the
 legacy resolver used by React Native 0.74–0.78.
 
+## Example workspace
+
+[`example/`](example) holds one set of screens rendered identically by five
+apps — Next.js, Expo Router, TanStack Router, React Router, and a
+framework-free memory-routing app. The screens are written once against the
+provider-driven package root; each app contributes only route wiring and a
+`<RoutingProvider adapter={...}>`. See [example/README.md](example/README.md).
+
 ## Testing with memory routing
 
 ```tsx

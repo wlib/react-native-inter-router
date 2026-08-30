@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "inter-router example",
+    "slug": "inter-router-example",
+    "version": "0.1.0",
+    "scheme": "inter-router-example",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "dev.interrouter.example",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "dev.interrouter.example"
+    },
+    "plugins": ["expo-router"]
+  }
+}

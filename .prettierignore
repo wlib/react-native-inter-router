@@ -2,3 +2,6 @@ dist
 node_modules
 package-lock.json
 coverage
+example/apps/next/.next
+example/apps/*/dist
+example/**/node_modules

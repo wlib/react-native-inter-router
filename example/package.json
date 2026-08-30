@@ -1,0 +1,23 @@
+{
+  "name": "react-native-inter-router-example",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:next": "npm run dev --workspace=apps/next",
+    "dev:expo": "npm run start --workspace=apps/expo",
+    "dev:tanstack": "npm run dev --workspace=apps/tanstack",
+    "dev:react-router": "npm run dev --workspace=apps/react-router",
+    "dev:memory": "npm run dev --workspace=apps/memory",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "dependencies": {
+    "@floating-ui/react-dom": "^2.1.0",
+    "react-native-inter-router": "file:..",
+    "react-native-overlaid": "file:../../react-native-overlaid"
+  }
+}

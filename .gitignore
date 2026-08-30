@@ -1,6 +1,12 @@
 node_modules/
 dist/
 coverage/
+.next/
+.expo/
+next-env.d.ts
+*.tsbuildinfo
+example/apps/expo/ios/
+example/apps/expo/android/
 *.tgz
 .DS_Store
 *.log

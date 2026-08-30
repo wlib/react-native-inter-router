@@ -1,0 +1,53 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "example-tanstack",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--workspace=apps/tanstack",
+        "--prefix",
+        "example"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "example-react-router",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--workspace=apps/react-router",
+        "--prefix",
+        "example"
+      ],
+      "port": 5174
+    },
+    {
+      "name": "example-memory",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--workspace=apps/memory",
+        "--prefix",
+        "example"
+      ],
+      "port": 5175
+    },
+    {
+      "name": "example-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--workspace=apps/next",
+        "--prefix",
+        "example"
+      ],
+      "port": 3000
+    }
+  ]
+}
