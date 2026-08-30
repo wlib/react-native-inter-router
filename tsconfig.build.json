@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "stripInternal": true,
+    "types": ["react"]
+  },
+  "files": ["types/expo-router.d.ts"],
+  "include": ["src"],
+  "exclude": ["src/**/__tests__/**", "src/**/*.test.*", "dist", "node_modules"]
+}
