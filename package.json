@@ -101,7 +101,14 @@
     },
     "./package.json": "./package.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlib/react-native-inter-router.git"
+  },
   "scripts": {
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish",
     "clean": "node scripts/clean.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -142,6 +149,7 @@
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.28.0",
     "@babel/preset-typescript": "^7.27.0",
+    "@changesets/cli": "^2.31.1",
     "@eslint/js": "^9.32.0",
     "@react-native/babel-preset": "0.83.1",
     "@tanstack/react-router": "^1.130.0",
